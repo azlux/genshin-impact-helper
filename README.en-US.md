@@ -11,7 +11,12 @@
 ![Github workflow status](https://img.shields.io/github/workflow/status/y1ndan/genshin-impact-helper/Genshin%20Impact%20Helper?label=status&style=flat-square)
 
 </div>
-
+## Getting the Cookie
+1. Go to the web event page(https://webstatic-sea.mihoyo.com/ys/event/signin-sea/index.html?lang=en-us&act_id=e202102251931481)
+2. Login
+3. Open Developer Tools (F12 or CTRL + SHIFT + I)
+4. Go to the console tab then type console.log(document.cookie)
+5. Follow Usage Steps
 ## Usage
 
 - Fork this repository https://github.com/y1ndan/genshin-impact-helper to your own account.
