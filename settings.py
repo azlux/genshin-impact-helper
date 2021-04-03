@@ -102,7 +102,7 @@ MESSAGE_TEMPLATE = '''
     {today:#^28}
     🔅[{region_name}]{uid}
     Today's reward: {award_name} × {award_cnt}
-    Total sign-in days: {total_sign_day} 天
+    Total sign-in days: {total_sign_day} Days
     Check-in result: {status}
     {end:#^28}'''
 
