@@ -104,6 +104,7 @@ MESSAGE_TEMPLATE = '''
     Today's reward: {award_name} × {award_cnt}
     Total sign-in days: {total_sign_day} Days
     Check-in result: {status}
+    (Scheduled every 12AM/00:00 GMT+8)
     {end:#^28}'''
 
 CONFIG.MESSAGE_TEMPLATE = MESSAGE_TEMPLATE
