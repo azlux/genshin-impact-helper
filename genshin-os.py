@@ -152,7 +152,7 @@ if __name__ == '__main__':
             msg_list.append(msg)
             success_num = success_num + 1
         except Exception as e:
-            msg = f'	NO.{i + 1} 账号:\n    {e}'
+            msg = f'	Account NO.{i + 1} :\n    {e}'
             msg_list.append(msg)
             fail_num = fail_num + 1
             log.error(msg)
