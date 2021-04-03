@@ -148,7 +148,7 @@ if __name__ == '__main__':
         try:
             ltoken = cookie_list[i].split('ltoken=')[1].split(';')[0]
             uid = cookie_list[i].split('account_id=')[1].split(';')[0]
-            msg = f'	NO.{i + 1} 账号:{Sign(cookie_list[i]).run()}'
+            msg = f'	Account NO.{i + 1} :{Sign(cookie_list[i]).run()}'
             msg_list.append(msg)
             success_num = success_num + 1
         except Exception as e:
