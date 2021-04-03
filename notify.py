@@ -413,7 +413,7 @@ class Notify(object):
             log.error(f'Discord 😳\n{response}')
 
     def send(self, **kwargs):
-        app = 'Genshin Impact Daily Login'
+        app = 'Genshin Impact Daily Login\n'
         status = kwargs.get('status', '')
         msg = kwargs.get('msg', '')
         hide = kwargs.get('hide', '')
