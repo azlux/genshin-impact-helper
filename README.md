@@ -1,4 +1,4 @@
-[简体中文](./README.md) | English
+[简体中文](./README-CN.md) | English
 <div align="center"> 
 <h1 align="center">Genshin Impact Helper</h1>
 
